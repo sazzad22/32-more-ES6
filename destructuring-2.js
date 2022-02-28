@@ -41,9 +41,9 @@ const companyEmployee = company.web.employee;
 console.log(companyEmployee);//22
 
 //shortcut
-const { work, employee } = company.web;//the property name should be mentioned insisde the curly braces in order to get those exact properties;
+const { work, framework } = company.web;//the property name should be mentioned insisde the curly braces in order to get those exact properties;
 
-console.log(work, employee);//website-development 22
+console.log(work, framework);//website-development 22
 
 const { first, second, third:c } = company.web.tech;
 

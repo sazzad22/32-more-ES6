@@ -33,8 +33,8 @@ console.log(aamit); //{name: 'aamit', address: 'bd', supportTime: 20, designatio
 class neptune extends teamMember{
     codeEditor;
 
-    constructor(editor) {
-        super();
+    constructor(name, address,editor) {
+        super( name, address);
         this.codeEditor = editor;
     }
 
@@ -44,7 +44,7 @@ class neptune extends teamMember{
 
 }
 
-const jabir = new neptune('jabir');
+const jabir = new neptune('neptuneName','bdNeptune','jabir');
 console.log(jabir);
 
 

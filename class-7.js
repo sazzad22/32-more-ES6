@@ -45,5 +45,5 @@ class prophet {
 
 const ibrahim = new prophet("ibrahim", "father", "makkah");
 
-console.log(ibrahim);
+console.log(ibrahim); //prophet {name: 'ibrahim', tittle: 'father', address: 'makkah'}
 
