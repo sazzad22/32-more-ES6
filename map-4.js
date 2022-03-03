@@ -35,6 +35,9 @@ const squaredArray = myArray.map(num => num * num);
 
 console.log(squaredArray);//[1, 4, 9, 16]
 
-const copiedArray = myArray.map();
+/* const copiedArray = myArray.map();
 
 console.log(copiedArray);//
+ */
+/* const anArray = [2, 2, 3];*/
+
